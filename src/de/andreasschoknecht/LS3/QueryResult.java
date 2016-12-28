@@ -38,7 +38,7 @@ public class QueryResult {
 		results = new ArrayList<LS3Document>();
 	}
 	
-	LS3Document getQuery() {
+	public LS3Document getQuery() {
 		return query;
 	}
 	
